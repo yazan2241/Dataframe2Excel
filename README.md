@@ -4,6 +4,7 @@ convert excel to dataframe and reconstruct new excel file with handling merge ce
 # Contents
 
 1 - col.py
+
 2 - row.py
 
 
@@ -21,12 +22,14 @@ I used pandas read_excel libraby to read the file
 Then created a collection List which store each sheet seperatly in a new dataframe
 
 for merged columns , pandas dataframe stores the column name as 'Unnamed-i'
+
 for merged rows , pandas dataframe stores the row name as empty string ''
 
 
 # Handle merged cell
 
 col.py : file which handle merged columns
+
 row.py : file which handle merged rows
 
 
